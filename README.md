@@ -4,11 +4,15 @@ A React Native (Expo) app with Login, Signup and Home screens. Authentication st
 
 ## Screenshots
 
-| Login | Signup | Validation errors | Home |
-|---|---|---|---|
-| ![Login](screenshots/login.png) | ![Signup](screenshots/signup.png) | ![Errors](screenshots/errors.png) | ![Home](screenshots/home.png) |
+| Login | Signup (password shown) | Home |
+|---|---|---|
+| ![Login](screenshots/login.png) | ![Signup](screenshots/signup.png) | ![Home](screenshots/home.png) |
 
-<!-- Add your screenshots to a `screenshots/` folder, or link a demo video here. -->
+| Login: invalid format | Login: incorrect credentials | Signup: missing / invalid fields | Signup: duplicate email |
+|---|---|---|---|
+| ![Login errors](screenshots/login-errors.png) | ![Wrong credentials](screenshots/login-wrong-credentials.png) | ![Signup errors](screenshots/signup-errors.png) | ![Duplicate email](screenshots/signup-duplicate.png) |
+
+_Screenshots were taken from the web build (`npm run web`) at iPhone screen size._
 
 ## Setup
 

@@ -65,7 +65,8 @@ export default function SignupScreen({ navigation }) {
           <PrimaryButton
             title="Already have an account? Go to Login"
             variant="link"
-            onPress={() => navigation.navigate('Login')}
+            // popTo returns to the existing Login screen; navigate would push a second copy.
+            onPress={() => navigation.popTo('Login')}
           />
         </View>
       </ScrollView>
