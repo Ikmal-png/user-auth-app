@@ -2,6 +2,10 @@
 
 A React Native (Expo) app with Login, Signup and Home screens. Authentication state is managed with the React Context API and saved with AsyncStorage, so you stay logged in after closing the app.
 
+## Demo video
+
+[Watch the demo (4.5 min)](demo/demo.mp4): validation errors, password toggle, signup, persistent login, logout, wrong credentials, duplicate email and a short code tour. Recorded on a phone with Expo Go.
+
 ## Screenshots
 
 | Login | Signup (password shown) | Home |
@@ -72,6 +76,3 @@ components/PrimaryButton.js
 utils/validation.js        Email / password / required-field checks
 theme.js                   Shared colors
 ```
-
-## Note
-This is a front-end exercise with no backend. Accounts are stored on the device, and passwords are kept in plain text. A real app would send credentials to a server and store only a secure token (for example with `expo-secure-store`).
